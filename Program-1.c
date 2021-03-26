@@ -22,7 +22,7 @@ int main()
         /* Remove last digit of 'num' */
         num /= 10;
     } while(num  != 0);
-    printf("Total digits: %d\n", count);
+    printf("Total digits: %d\n",count);
 
     return 0;
 }
