@@ -9,17 +9,17 @@ int main ()
  
 //Fill the missing code
  printf("Enter n value");
- scanf("%i", &n);
+ scanf("%d",&n);
  //Fill the missing code
 for(i=1;i<=n;i++)
  {
    
    if ( i % 2 == 0 )
       continue;
-  sum = sum + i;
+  sum = sum +5;
   }
 //Fill the missing code
-printf("%d\n",sum);
+printf("%d",sum);
  return 0;
 }
 
