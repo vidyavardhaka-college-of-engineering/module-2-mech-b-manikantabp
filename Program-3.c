@@ -9,7 +9,7 @@ int main() {
 	scanf("%d",&n);
  // Fill the code in scanf()
 	do {
-		printf("I !Love VVCE ");
+		printf("I Love VVCE ");
 		i++;
 		// complete the statement
 	} while(i<=n);
