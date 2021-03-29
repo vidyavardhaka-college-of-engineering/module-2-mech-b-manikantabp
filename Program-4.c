@@ -21,5 +21,6 @@ scanf("%d",&n);
 //Fill the missing code
 printf("%d",sum);
  return 0;
+ 
 }
 
