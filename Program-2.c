@@ -13,4 +13,4 @@ void main()
 	for(i=1;i<=n;i++)
 		printf("%d ",i);
 	//Fill the missing code here
- }
+}
