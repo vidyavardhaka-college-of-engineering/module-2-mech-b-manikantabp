@@ -2,19 +2,24 @@
 //INPUT- 10
 //OUTPUT-25
 
-#include<stdio.h>
-	int main()
-	{
-	  int a[10],i,n;
-	  printf("Enter size of the array and the array elements");
-	  scanf("%d",&n);
-	  
-	  for(i=0;i<n;i++)
-	  scanf("%d",&a[i]);//missing code
-	  printf("Array elements in reverse order : ");
-	  for(i=n-1;i!=0;i--) //missing code
-	  printf("%d ",a[i]);
-	  return(0);
-	}
-
+#include <stdio.h>
+int main ()
+{
+ int a=10,sum = 0,i,n;
+ 
+//Fill the missing code
+ printf("Enter n value");
+scanf("%d",&n);
+ //Fill the missing code
+for(i=1;i<=n;i++)
+ {
+   
+   if ( i % 2 == 0 )
+      continue;
+  sum = sum +5 ;
+  }
+//Fill the missing code
+printf("%d",sum);
+ return 0;
+}
 
